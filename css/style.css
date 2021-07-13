@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+/*  */
+
+.primeiro{
+    background-color: rgb(33,35,67);
+    width: 100%;
+    height: 78px;
+}
+
+.logomenu{
+    padding: 27px;
+
+}
+
+
+.segundo div.center{
+    display: flex;
+    justify-content: space-around;
+}
+
+.segundo{
+    background-image: url(../imagens/header_bg.png);
+    
+    background-size: cover;
+
+    width: 100%;
+    height: 557px;
+}
+
+div.texto{
+    
+}
+
+div.texto ul{
+    background-color: rgba(33,35,67, 70%);
+    list-style-position: inside;
+    padding: 30px 30px 60px 0px;
+    margin-top: 118px;
+}
+
+div.texto ul li{
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.formu{
+    background-color: white;
+    height: 600px;
+    margin-top: -20px;
+    padding: 5px;
+    border: 8px solid rgb(187, 184, 184);
+    border-radius: 3px;
+}
+
+.formu p{
+    color: gray;
+    font-style: normal;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.formu input{
+    display: block;
+    outline: none;
+    width: 100%;
+    margin: 8px 0px 17px 0px;
+    padding: 18px;
+    border: 1px solid rgba(187, 184, 184, 59%);
+}
+
+.caixafodase{
+    width: 100%;
+    /* background-color: skyblue; */
+    margin-top: 20px;
+}
+
+.caixafodase span{
+color: rgb(73, 72, 72);
+}
+
+.caixafodase input[type="submit"]{
+    background-color: rgb(33,35,67);
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.caixafodase label{
+    color: gray;
+}
+
+div.terceiro{
+     background-color: rgb(221, 219, 219);
+     width: 100%;
+     height: 335px;
+}
+
+div.terceiro .terceirotexto{
+    
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+}
+
+.terceirotexto h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(34, 33, 33);
+}
+
+.terceirotexto p{
+     text-align: left;
+     color: gray;
+     font-size: 18px;
+     text-shadow: 0px 0px 2px rgb(151, 218, 240);
+}
+
+.seta{
+    margin: 64px auto;
+    width: 64px;
+}
+
+.quarto{
+    width: 100%;
+    height: 580px;
+    background-color: white;
+}
+
+.quarto .titulofoda{
+    margin: 100px auto;
+    width: 386px;
+    color: #462663;
+}
+
+.containeritens{
+    display: flex;
+    width: 100%;
+}
+
+.flexkk{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.flexkk img{
+    padding: 20px 0px;
+}
+
+.flexkk p{
+     text-align: center;
+     margin-top: 15px;
+     font-size: 20px;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    border-top: 2px solid gray;
+}
+
+footer .rodape{
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    font-size: 18px;
+    color: gray;
+    margin: 20px 0;
+}
+
+
